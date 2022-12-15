@@ -52,7 +52,7 @@ How To Craft Steel and Weapons:
 <details><summary>Show Weapon Screenshots:</summary>
 
 
-<p align="center"><img src="https://cdn.discordapp.com/attachments/1021774386753196122/1051109550947844196/image.png"></p>
+<p align="center"><img src="https://cdn.discordapp.com/attachments/1021774386753196122/1051503255647170570/image.png"></p>
 
 <p align="center"><img src="https://cdn.discordapp.com/attachments/1021774386753196122/1050963211815497769/image.png"></p>
 

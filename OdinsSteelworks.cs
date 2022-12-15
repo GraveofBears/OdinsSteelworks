@@ -95,15 +95,15 @@ namespace OdinsSteelworks
             CWS_Crucible_Full.Description.English("A container with carbon and iron scrap");
             CWS_Crucible_Full.Crafting.Add("CWS_Forge", 1);
             CWS_Crucible_Full.RequiredItems.Add("CWS_SurtlingCoal", 2);
-            CWS_Crucible_Full.RequiredItems.Add("IronScrap", 5);
-            CWS_Crucible_Full.CraftAmount = 5;
+            CWS_Crucible_Full.RequiredItems.Add("IronScrap", 4);
+            CWS_Crucible_Full.CraftAmount = 1;
 
             Item CWS_Crucible_Finished = new Item("cwsassets", "CWS_Crucible_Finished");
             CWS_Crucible_Finished.Name.English("Liquid Steel Crucible");
             CWS_Crucible_Finished.Description.English("A molten steel filled container");
             CWS_Crucible_Finished.Crafting.Add("CWS_Forge", 30);
             CWS_Crucible_Finished.RequiredItems.Add("SwordCheat", 1);
-            CWS_Crucible_Finished.CraftAmount = 5;
+            CWS_Crucible_Finished.CraftAmount = 1;
 
             Item CWS_Cold_Steel = new Item("cwsassets", "CWS_Cold_Steel");
             CWS_Cold_Steel.Name.English("Cold Steel");
@@ -139,7 +139,7 @@ namespace OdinsSteelworks
             CWS_TH_Axe_1.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Axe_1.Configurable = Configurability.Recipe;
             CWS_TH_Axe_1.CraftAmount = 1;
-            CWS_TH_Axe_1.Snapshot();
+
 
             Item CWS_TH_Axe_2 = new Item("cwsassets", "CWS_TH_Axe_2");
             CWS_TH_Axe_2.Name.English("The Splitter");
@@ -151,7 +151,7 @@ namespace OdinsSteelworks
             CWS_TH_Axe_2.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Axe_2.Configurable = Configurability.Recipe;
             CWS_TH_Axe_2.CraftAmount = 1;
-            CWS_TH_Axe_2.Snapshot();
+
 
             Item CWS_TH_Axe_3 = new Item("cwsassets", "CWS_TH_Axe_3");
             CWS_TH_Axe_3.Name.English("Double Edge Axe");
@@ -163,7 +163,7 @@ namespace OdinsSteelworks
             CWS_TH_Axe_3.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Axe_3.Configurable = Configurability.Recipe;
             CWS_TH_Axe_3.CraftAmount = 1;
-            CWS_TH_Axe_3.Snapshot();
+
 
             Item CWS_TH_Axe_4 = new Item("cwsassets", "CWS_TH_Axe_4");
             CWS_TH_Axe_4.Name.English("The Butcher");
@@ -175,7 +175,7 @@ namespace OdinsSteelworks
             CWS_TH_Axe_4.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Axe_4.Configurable = Configurability.Recipe;
             CWS_TH_Axe_4.CraftAmount = 1;
-            CWS_TH_Axe_4.Snapshot();
+
 
             Item CWS_TH_Axe_5 = new Item("cwsassets", "CWS_TH_Axe_5");
             CWS_TH_Axe_5.Name.English("Nott Gardkell");
@@ -187,7 +187,7 @@ namespace OdinsSteelworks
             CWS_TH_Axe_5.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Axe_5.Configurable = Configurability.Recipe;
             CWS_TH_Axe_5.CraftAmount = 1;
-            CWS_TH_Axe_5.Snapshot();
+
 
             Item CWS_TH_Axe_6 = new Item("cwsassets", "CWS_TH_Axe_6");
             CWS_TH_Axe_6.Name.English("Dane Axe");
@@ -199,7 +199,7 @@ namespace OdinsSteelworks
             CWS_TH_Axe_6.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Axe_6.Configurable = Configurability.Recipe;
             CWS_TH_Axe_6.CraftAmount = 1;
-            CWS_TH_Axe_6.Snapshot();
+
 
             Item CWS_TH_Axe_7 = new Item("cwsassets", "CWS_TH_Axe_7");
             CWS_TH_Axe_7.Name.English("Orta");
@@ -211,7 +211,7 @@ namespace OdinsSteelworks
             CWS_TH_Axe_7.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Axe_7.Configurable = Configurability.Recipe;
             CWS_TH_Axe_7.CraftAmount = 1;
-            CWS_TH_Axe_7.Snapshot();
+;
 
             Item CWS_TH_Axe_8 = new Item("cwsassets", "CWS_TH_Axe_8");
             CWS_TH_Axe_8.Name.English("Kaba Teiris");
@@ -223,7 +223,7 @@ namespace OdinsSteelworks
             CWS_TH_Axe_8.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Axe_8.Configurable = Configurability.Recipe;
             CWS_TH_Axe_8.CraftAmount = 1;
-            CWS_TH_Axe_8.Snapshot();
+
 
             Item CWS_TH_Axe_9 = new Item("cwsassets", "CWS_TH_Axe_9");
             CWS_TH_Axe_9.Name.English("Solefald");
@@ -235,7 +235,7 @@ namespace OdinsSteelworks
             CWS_TH_Axe_9.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Axe_9.Configurable = Configurability.Recipe;
             CWS_TH_Axe_9.CraftAmount = 1;
-            CWS_TH_Axe_9.Snapshot();
+
 
             Item CWS_TH_Axe_10 = new Item("cwsassets", "CWS_TH_Axe_10");
             CWS_TH_Axe_10.Name.English("Scarfuld");
@@ -247,7 +247,7 @@ namespace OdinsSteelworks
             CWS_TH_Axe_10.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Axe_10.Configurable = Configurability.Recipe;
             CWS_TH_Axe_10.CraftAmount = 1;
-            CWS_TH_Axe_10.Snapshot();
+
 
             #endregion
             #region 2h maces
@@ -262,7 +262,7 @@ namespace OdinsSteelworks
             CWS_Sledge_1.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sledge_1.Configurable = Configurability.Recipe;
             CWS_Sledge_1.CraftAmount = 1;
-            CWS_Sledge_1.Snapshot();
+
 
             Item CWS_Sledge_2 = new Item("cwsassets", "CWS_Sledge_2");
             CWS_Sledge_2.Name.English("Khanafoss");
@@ -274,7 +274,7 @@ namespace OdinsSteelworks
             CWS_Sledge_2.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sledge_2.Configurable = Configurability.Recipe;
             CWS_Sledge_2.CraftAmount = 1;
-            CWS_Sledge_2.Snapshot();
+
 
             Item CWS_Sledge_3 = new Item("cwsassets", "CWS_Sledge_3");
             CWS_Sledge_3.Name.English("Defiant Farmer");
@@ -286,7 +286,7 @@ namespace OdinsSteelworks
             CWS_Sledge_3.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sledge_3.Configurable = Configurability.Recipe;
             CWS_Sledge_3.CraftAmount = 1;
-            CWS_Sledge_3.Snapshot();
+
 
             Item CWS_Sledge_4 = new Item("cwsassets", "CWS_Sledge_4");
             CWS_Sledge_4.Name.English("Darel");
@@ -298,7 +298,7 @@ namespace OdinsSteelworks
             CWS_Sledge_4.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sledge_4.Configurable = Configurability.Recipe;
             CWS_Sledge_4.CraftAmount = 1;
-            CWS_Sledge_4.Snapshot();
+
 
             Item CWS_Sledge_5 = new Item("cwsassets", "CWS_Sledge_5");
             CWS_Sledge_5.Name.English("Enkak");
@@ -310,7 +310,7 @@ namespace OdinsSteelworks
             CWS_Sledge_5.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sledge_5.Configurable = Configurability.Recipe;
             CWS_Sledge_5.CraftAmount = 1;
-            CWS_Sledge_5.Snapshot();
+
 
             Item CWS_Sledge_6 = new Item("cwsassets", "CWS_Sledge_6");
             CWS_Sledge_6.Name.English("Kabayan");
@@ -322,7 +322,7 @@ namespace OdinsSteelworks
             CWS_Sledge_6.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sledge_6.Configurable = Configurability.Recipe;
             CWS_Sledge_6.CraftAmount = 1;
-            CWS_Sledge_6.Snapshot();
+
 
             Item CWS_Sledge_7 = new Item("cwsassets", "CWS_Sledge_7");
             CWS_Sledge_7.Name.English("Sagavatn");
@@ -334,7 +334,7 @@ namespace OdinsSteelworks
             CWS_Sledge_7.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sledge_7.Configurable = Configurability.Recipe;
             CWS_Sledge_7.CraftAmount = 1;
-            CWS_Sledge_7.Snapshot();
+
 
             Item CWS_Sledge_8 = new Item("cwsassets", "CWS_Sledge_8");
             CWS_Sledge_8.Name.English("Vandrad");
@@ -346,7 +346,7 @@ namespace OdinsSteelworks
             CWS_Sledge_8.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sledge_8.Configurable = Configurability.Recipe;
             CWS_Sledge_8.CraftAmount = 1;
-            CWS_Sledge_8.Snapshot();
+
 
             Item CWS_Sledge_9 = new Item("cwsassets", "CWS_Sledge_9");
             CWS_Sledge_9.Name.English("Wakkein");
@@ -358,7 +358,7 @@ namespace OdinsSteelworks
             CWS_Sledge_9.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sledge_9.Configurable = Configurability.Recipe;
             CWS_Sledge_9.CraftAmount = 1;
-            CWS_Sledge_9.Snapshot();
+
 
             Item CWS_Sledge_10 = new Item("cwsassets", "CWS_Sledge_10");
             CWS_Sledge_10.Name.English("Seekershell Facesplitter");
@@ -370,7 +370,7 @@ namespace OdinsSteelworks
             CWS_Sledge_10.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sledge_10.Configurable = Configurability.Recipe;
             CWS_Sledge_10.CraftAmount = 1;
-            CWS_Sledge_10.Snapshot();
+
 
             #endregion
             #region 2h swords
@@ -385,7 +385,7 @@ namespace OdinsSteelworks
             CWS_TH_Sword_1.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Sword_1.Configurable = Configurability.Recipe;
             CWS_TH_Sword_1.CraftAmount = 1;
-            CWS_TH_Sword_1.Snapshot();
+
 
             Item CWS_TH_Sword_2 = new Item("cwsassets", "CWS_TH_Sword_2");
             CWS_TH_Sword_2.Name.English("Gardakan");
@@ -397,7 +397,7 @@ namespace OdinsSteelworks
             CWS_TH_Sword_2.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Sword_2.Configurable = Configurability.Recipe;
             CWS_TH_Sword_2.CraftAmount = 1;
-            CWS_TH_Sword_2.Snapshot();
+
 
             Item CWS_TH_Sword_3 = new Item("cwsassets", "CWS_TH_Sword_3");
             CWS_TH_Sword_3.Name.English("Ritcher");
@@ -409,7 +409,7 @@ namespace OdinsSteelworks
             CWS_TH_Sword_3.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Sword_3.Configurable = Configurability.Recipe;
             CWS_TH_Sword_3.CraftAmount = 1;
-            CWS_TH_Sword_3.Snapshot();
+
 
             Item CWS_TH_Sword_4 = new Item("cwsassets", "CWS_TH_Sword_4");
             CWS_TH_Sword_4.Name.English("Flamberge");
@@ -421,7 +421,7 @@ namespace OdinsSteelworks
             CWS_TH_Sword_4.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Sword_4.Configurable = Configurability.Recipe;
             CWS_TH_Sword_4.CraftAmount = 1;
-            CWS_TH_Sword_4.Snapshot();
+
 
             Item CWS_TH_Sword_5 = new Item("cwsassets", "CWS_TH_Sword_5");
             CWS_TH_Sword_5.Name.English("Sheeden");
@@ -433,7 +433,7 @@ namespace OdinsSteelworks
             CWS_TH_Sword_5.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Sword_5.Configurable = Configurability.Recipe;
             CWS_TH_Sword_5.CraftAmount = 1;
-            CWS_TH_Sword_5.Snapshot();
+
 
             Item CWS_TH_Sword_6 = new Item("cwsassets", "CWS_TH_Sword_6");
             CWS_TH_Sword_6.Name.English("Seírios");
@@ -445,7 +445,7 @@ namespace OdinsSteelworks
             CWS_TH_Sword_6.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Sword_6.Configurable = Configurability.Recipe;
             CWS_TH_Sword_6.CraftAmount = 1;
-            CWS_TH_Sword_6.Snapshot();
+
 
             Item CWS_TH_Sword_7 = new Item("cwsassets", "CWS_TH_Sword_7");
             CWS_TH_Sword_7.Name.English("Engeram");
@@ -457,7 +457,7 @@ namespace OdinsSteelworks
             CWS_TH_Sword_7.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Sword_7.Configurable = Configurability.Recipe;
             CWS_TH_Sword_7.CraftAmount = 1;
-            CWS_TH_Sword_7.Snapshot();
+
 
             Item CWS_TH_Sword_8 = new Item("cwsassets", "CWS_TH_Sword_8");
             CWS_TH_Sword_8.Name.English("Aleister");
@@ -469,7 +469,7 @@ namespace OdinsSteelworks
             CWS_TH_Sword_8.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Sword_8.Configurable = Configurability.Recipe;
             CWS_TH_Sword_8.CraftAmount = 1;
-            CWS_TH_Sword_8.Snapshot();
+
 
             Item CWS_TH_Sword_9 = new Item("cwsassets", "CWS_TH_Sword_9");
             CWS_TH_Sword_9.Name.English("Caltrain");
@@ -481,7 +481,7 @@ namespace OdinsSteelworks
             CWS_TH_Sword_9.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Sword_9.Configurable = Configurability.Recipe;
             CWS_TH_Sword_9.CraftAmount = 1;
-            CWS_TH_Sword_9.Snapshot();
+
 
             Item CWS_TH_Sword_10 = new Item("cwsassets", "CWS_TH_Sword_10");
             CWS_TH_Sword_10.Name.English("August Aleister");
@@ -493,7 +493,7 @@ namespace OdinsSteelworks
             CWS_TH_Sword_10.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Sword_10.Configurable = Configurability.Recipe;
             CWS_TH_Sword_10.CraftAmount = 1;
-            CWS_TH_Sword_10.Snapshot();
+
 
             Item CWS_TH_Sword_11 = new Item("cwsassets", "CWS_TH_Sword_11");
             CWS_TH_Sword_11.Name.English("RavenStorm");
@@ -505,7 +505,7 @@ namespace OdinsSteelworks
             CWS_TH_Sword_11.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_TH_Sword_11.Configurable = Configurability.Recipe;
             CWS_TH_Sword_11.CraftAmount = 1;
-            CWS_TH_Sword_11.Snapshot();
+
 
             #endregion
             #region atgeir
@@ -520,7 +520,7 @@ namespace OdinsSteelworks
             CWS_Atgeir_1.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Atgeir_1.Configurable = Configurability.Recipe;
             CWS_Atgeir_1.CraftAmount = 1;
-            CWS_Atgeir_1.Snapshot();
+
 
             Item CWS_Atgeir_2 = new Item("cwsassets", "CWS_Atgeir_2");
             CWS_Atgeir_2.Name.English("Hayakawa");
@@ -532,7 +532,7 @@ namespace OdinsSteelworks
             CWS_Atgeir_2.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Atgeir_2.Configurable = Configurability.Recipe;
             CWS_Atgeir_2.CraftAmount = 1;
-            CWS_Atgeir_2.Snapshot();
+
 
             Item CWS_Atgeir_3 = new Item("cwsassets", "CWS_Atgeir_3");
             CWS_Atgeir_3.Name.English("Ikezawa");
@@ -544,7 +544,7 @@ namespace OdinsSteelworks
             CWS_Atgeir_3.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Atgeir_3.Configurable = Configurability.Recipe;
             CWS_Atgeir_3.CraftAmount = 1;
-            CWS_Atgeir_3.Snapshot();
+
 
             Item CWS_Atgeir_4 = new Item("cwsassets", "CWS_Atgeir_4");
             CWS_Atgeir_4.Name.English("Iwase");
@@ -556,7 +556,7 @@ namespace OdinsSteelworks
             CWS_Atgeir_4.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Atgeir_4.Configurable = Configurability.Recipe;
             CWS_Atgeir_4.CraftAmount = 1;
-            CWS_Atgeir_4.Snapshot();
+
 
             Item CWS_Atgeir_5 = new Item("cwsassets", "CWS_Atgeir_5");
             CWS_Atgeir_5.Name.English("Kuwata");
@@ -568,7 +568,7 @@ namespace OdinsSteelworks
             CWS_Atgeir_5.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Atgeir_5.Configurable = Configurability.Recipe;
             CWS_Atgeir_5.CraftAmount = 1;
-            CWS_Atgeir_5.Snapshot();
+
 
             Item CWS_Atgeir_6 = new Item("cwsassets", "CWS_Atgeir_6");
             CWS_Atgeir_6.Name.English("Sadamune");
@@ -580,7 +580,7 @@ namespace OdinsSteelworks
             CWS_Atgeir_6.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Atgeir_6.Configurable = Configurability.Recipe;
             CWS_Atgeir_6.CraftAmount = 1;
-            CWS_Atgeir_6.Snapshot();
+
 
             Item CWS_Atgeir_7 = new Item("cwsassets", "CWS_Atgeir_7");
             CWS_Atgeir_7.Name.English("Oki Sato");
@@ -592,7 +592,7 @@ namespace OdinsSteelworks
             CWS_Atgeir_7.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Atgeir_7.Configurable = Configurability.Recipe;
             CWS_Atgeir_7.CraftAmount = 1;
-            CWS_Atgeir_7.Snapshot();
+
 
             Item CWS_Atgeir_8 = new Item("cwsassets", "CWS_Atgeir_8");
             CWS_Atgeir_8.Name.English("Tonbokiri");
@@ -604,7 +604,7 @@ namespace OdinsSteelworks
             CWS_Atgeir_8.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Atgeir_8.Configurable = Configurability.Recipe;
             CWS_Atgeir_8.CraftAmount = 1;
-            CWS_Atgeir_8.Snapshot();
+
 
             Item CWS_Atgeir_9 = new Item("cwsassets", "CWS_Atgeir_9");
             CWS_Atgeir_9.Name.English("Benzaiten");
@@ -616,7 +616,7 @@ namespace OdinsSteelworks
             CWS_Atgeir_9.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Atgeir_9.Configurable = Configurability.Recipe;
             CWS_Atgeir_9.CraftAmount = 1;
-            CWS_Atgeir_9.Snapshot();
+
 
             Item CWS_Atgeir_10 = new Item("cwsassets", "CWS_Atgeir_10");
             CWS_Atgeir_10.Name.English("Nethersong");
@@ -628,7 +628,7 @@ namespace OdinsSteelworks
             CWS_Atgeir_10.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Atgeir_10.Configurable = Configurability.Recipe;
             CWS_Atgeir_10.CraftAmount = 1;
-            CWS_Atgeir_10.Snapshot();
+
 
             #endregion
             #region axes
@@ -643,7 +643,7 @@ namespace OdinsSteelworks
             CWS_Axe_1.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Axe_1.Configurable = Configurability.Recipe;
             CWS_Axe_1.CraftAmount = 1;
-            CWS_Axe_1.Snapshot();
+
 
             Item CWS_Axe_2 = new Item("cwsassets", "CWS_Axe_2");
             CWS_Axe_2.Name.English("Svadilfari");
@@ -655,7 +655,7 @@ namespace OdinsSteelworks
             CWS_Axe_2.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Axe_2.Configurable = Configurability.Recipe;
             CWS_Axe_2.CraftAmount = 1;
-            CWS_Axe_2.Snapshot();
+
 
             Item CWS_Axe_3 = new Item("cwsassets", "CWS_Axe_3");
             CWS_Axe_3.Name.English("Garmia");
@@ -667,7 +667,7 @@ namespace OdinsSteelworks
             CWS_Axe_3.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Axe_3.Configurable = Configurability.Recipe;
             CWS_Axe_3.CraftAmount = 1;
-            CWS_Axe_3.Snapshot();
+
 
             Item CWS_Axe_4 = new Item("cwsassets", "CWS_Axe_4");
             CWS_Axe_4.Name.English("Bashok");
@@ -679,7 +679,7 @@ namespace OdinsSteelworks
             CWS_Axe_4.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Axe_4.Configurable = Configurability.Recipe;
             CWS_Axe_4.CraftAmount = 1;
-            CWS_Axe_4.Snapshot();
+
 
             Item CWS_Axe_5 = new Item("cwsassets", "CWS_Axe_5");
             CWS_Axe_5.Name.English("Green Oskoreia");
@@ -691,7 +691,7 @@ namespace OdinsSteelworks
             CWS_Axe_5.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Axe_5.Configurable = Configurability.Recipe;
             CWS_Axe_5.CraftAmount = 1;
-            CWS_Axe_5.Snapshot();
+
 
             Item CWS_Axe_6 = new Item("cwsassets", "CWS_Axe_6");
             CWS_Axe_6.Name.English("Landvaettir");
@@ -703,7 +703,7 @@ namespace OdinsSteelworks
             CWS_Axe_6.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Axe_6.Configurable = Configurability.Recipe;
             CWS_Axe_6.CraftAmount = 1;
-            CWS_Axe_6.Snapshot();
+
 
             Item CWS_Axe_7 = new Item("cwsassets", "CWS_Axe_7");
             CWS_Axe_7.Name.English("Grafvitner");
@@ -715,7 +715,7 @@ namespace OdinsSteelworks
             CWS_Axe_7.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Axe_7.Configurable = Configurability.Recipe;
             CWS_Axe_7.CraftAmount = 1;
-            CWS_Axe_7.Snapshot();
+
 
             Item CWS_Axe_8 = new Item("cwsassets", "CWS_Axe_8");
             CWS_Axe_8.Name.English("Half Moon");
@@ -727,7 +727,7 @@ namespace OdinsSteelworks
             CWS_Axe_8.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Axe_8.Configurable = Configurability.Recipe;
             CWS_Axe_8.CraftAmount = 1;
-            CWS_Axe_8.Snapshot();
+
 
             Item CWS_Axe_9 = new Item("cwsassets", "CWS_Axe_9");
             CWS_Axe_9.Name.English("Cursed Seithr");
@@ -739,7 +739,7 @@ namespace OdinsSteelworks
             CWS_Axe_9.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Axe_9.Configurable = Configurability.Recipe;
             CWS_Axe_9.CraftAmount = 1;
-            CWS_Axe_9.Snapshot();
+
 
             Item CWS_Axe_10 = new Item("cwsassets", "CWS_Axe_10");
             CWS_Axe_10.Name.English("Harmr");
@@ -751,7 +751,7 @@ namespace OdinsSteelworks
             CWS_Axe_10.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Axe_10.Configurable = Configurability.Recipe;
             CWS_Axe_10.CraftAmount = 1;
-            CWS_Axe_10.Snapshot();
+
 
             #endregion
             #region bows
@@ -766,7 +766,7 @@ namespace OdinsSteelworks
             CWS_Bow_1.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Bow_1.Configurable = Configurability.Recipe;
             CWS_Bow_1.CraftAmount = 1;
-            CWS_Bow_1.Snapshot();
+
 
             Item CWS_Bow_2 = new Item("cwsassets", "CWS_Bow_2");
             CWS_Bow_2.Name.English("Seamsplitter");
@@ -778,7 +778,7 @@ namespace OdinsSteelworks
             CWS_Bow_2.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Bow_2.Configurable = Configurability.Recipe;
             CWS_Bow_2.CraftAmount = 1;
-            CWS_Bow_2.Snapshot();
+
 
             Item CWS_Bow_3 = new Item("cwsassets", "CWS_Bow_3");
             CWS_Bow_3.Name.English("Eurytus");
@@ -790,7 +790,7 @@ namespace OdinsSteelworks
             CWS_Bow_3.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Bow_3.Configurable = Configurability.Recipe;
             CWS_Bow_3.CraftAmount = 1;
-            CWS_Bow_3.Snapshot();
+
 
             Item CWS_Bow_4 = new Item("cwsassets", "CWS_Bow_4");
             CWS_Bow_4.Name.English("Kodandam");
@@ -802,7 +802,7 @@ namespace OdinsSteelworks
             CWS_Bow_4.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Bow_4.Configurable = Configurability.Recipe;
             CWS_Bow_4.CraftAmount = 1;
-            CWS_Bow_4.Snapshot();
+
 
             Item CWS_Bow_5 = new Item("cwsassets", "CWS_Bow_5");
             CWS_Bow_5.Name.English("Vijaya");
@@ -814,7 +814,7 @@ namespace OdinsSteelworks
             CWS_Bow_5.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Bow_5.Configurable = Configurability.Recipe;
             CWS_Bow_5.CraftAmount = 1;
-            CWS_Bow_5.Snapshot();
+
 
             Item CWS_Bow_6 = new Item("cwsassets", "CWS_Bow_6");
             CWS_Bow_6.Name.English("Belthronding");
@@ -826,7 +826,7 @@ namespace OdinsSteelworks
             CWS_Bow_6.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Bow_6.Configurable = Configurability.Recipe;
             CWS_Bow_6.CraftAmount = 1;
-            CWS_Bow_6.Snapshot();
+
 
             Item CWS_Bow_7 = new Item("cwsassets", "CWS_Bow_7");
             CWS_Bow_7.Name.English("Houyi Wings");
@@ -838,7 +838,7 @@ namespace OdinsSteelworks
             CWS_Bow_7.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Bow_7.Configurable = Configurability.Recipe;
             CWS_Bow_7.CraftAmount = 1;
-            CWS_Bow_7.Snapshot();
+
 
             Item CWS_Bow_8 = new Item("cwsassets", "CWS_Bow_8");
             CWS_Bow_8.Name.English("Brankan");
@@ -850,7 +850,7 @@ namespace OdinsSteelworks
             CWS_Bow_8.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Bow_8.Configurable = Configurability.Recipe;
             CWS_Bow_8.CraftAmount = 1;
-            CWS_Bow_8.Snapshot();
+
 
             Item CWS_Bow_9 = new Item("cwsassets", "CWS_Bow_9");
             CWS_Bow_9.Name.English("Używany");
@@ -862,7 +862,7 @@ namespace OdinsSteelworks
             CWS_Bow_9.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Bow_9.Configurable = Configurability.Recipe;
             CWS_Bow_9.CraftAmount = 1;
-            CWS_Bow_9.Snapshot();
+
 
             Item CWS_Bow_10 = new Item("cwsassets", "CWS_Bow_10");
             CWS_Bow_10.Name.English("Hamstring");
@@ -874,7 +874,7 @@ namespace OdinsSteelworks
             CWS_Bow_10.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Bow_10.Configurable = Configurability.Recipe;
             CWS_Bow_10.CraftAmount = 1;
-            CWS_Bow_10.Snapshot();
+
 
             Item CWS_Bow_11 = new Item("cwsassets", "CWS_Bow_11");
             CWS_Bow_11.Name.English("Huntress");
@@ -886,7 +886,7 @@ namespace OdinsSteelworks
             CWS_Bow_11.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Bow_11.Configurable = Configurability.Recipe;
             CWS_Bow_11.CraftAmount = 1;
-            CWS_Bow_11.Snapshot();
+
 
             #endregion
             #region daggers
@@ -901,7 +901,7 @@ namespace OdinsSteelworks
             CWS_Dagger_1.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Dagger_1.Configurable = Configurability.Recipe;
             CWS_Dagger_1.CraftAmount = 1;
-            CWS_Dagger_1.Snapshot();
+
 
             Item CWS_Dagger_2 = new Item("cwsassets", "CWS_Dagger_2");
             CWS_Dagger_2.Name.English("Guron");
@@ -913,7 +913,7 @@ namespace OdinsSteelworks
             CWS_Dagger_2.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Dagger_2.Configurable = Configurability.Recipe;
             CWS_Dagger_2.CraftAmount = 1;
-            CWS_Dagger_2.Snapshot();
+
 
             Item CWS_Dagger_3 = new Item("cwsassets", "CWS_Dagger_3");
             CWS_Dagger_3.Name.English("Gilian");
@@ -925,7 +925,7 @@ namespace OdinsSteelworks
             CWS_Dagger_3.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Dagger_3.Configurable = Configurability.Recipe;
             CWS_Dagger_3.CraftAmount = 1;
-            CWS_Dagger_3.Snapshot();
+
 
             Item CWS_Dagger_4 = new Item("cwsassets", "CWS_Dagger_4");
             CWS_Dagger_4.Name.English("Tiffany");
@@ -937,7 +937,7 @@ namespace OdinsSteelworks
             CWS_Dagger_4.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Dagger_4.Configurable = Configurability.Recipe;
             CWS_Dagger_4.CraftAmount = 1;
-            CWS_Dagger_4.Snapshot();
+
 
             Item CWS_Dagger_5 = new Item("cwsassets", "CWS_Dagger_5");
             CWS_Dagger_5.Name.English("Slayton");
@@ -949,7 +949,7 @@ namespace OdinsSteelworks
             CWS_Dagger_5.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Dagger_5.Configurable = Configurability.Recipe;
             CWS_Dagger_5.CraftAmount = 1;
-            CWS_Dagger_5.Snapshot();
+
 
             Item CWS_Dagger_6 = new Item("cwsassets", "CWS_Dagger_6");
             CWS_Dagger_6.Name.English("Marcellis");
@@ -961,7 +961,7 @@ namespace OdinsSteelworks
             CWS_Dagger_6.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Dagger_6.Configurable = Configurability.Recipe;
             CWS_Dagger_6.CraftAmount = 1;
-            CWS_Dagger_6.Snapshot();
+
 
             Item CWS_Dagger_7 = new Item("cwsassets", "CWS_Dagger_7");
             CWS_Dagger_7.Name.English("Hilord");
@@ -973,7 +973,7 @@ namespace OdinsSteelworks
             CWS_Dagger_7.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Dagger_7.Configurable = Configurability.Recipe;
             CWS_Dagger_7.CraftAmount = 1;
-            CWS_Dagger_7.Snapshot();
+
 
             Item CWS_Dagger_8 = new Item("cwsassets", "CWS_Dagger_8");
             CWS_Dagger_8.Name.English("Eveanne");
@@ -985,7 +985,7 @@ namespace OdinsSteelworks
             CWS_Dagger_8.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Dagger_8.Configurable = Configurability.Recipe;
             CWS_Dagger_8.CraftAmount = 1;
-            CWS_Dagger_8.Snapshot();
+
 
             Item CWS_Dagger_9 = new Item("cwsassets", "CWS_Dagger_9");
             CWS_Dagger_9.Name.English("Craymen");
@@ -997,7 +997,7 @@ namespace OdinsSteelworks
             CWS_Dagger_9.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Dagger_9.Configurable = Configurability.Recipe;
             CWS_Dagger_9.CraftAmount = 1;
-            CWS_Dagger_9.Snapshot();
+
             
             Item CWS_Dagger_10 = new Item("cwsassets", "CWS_Dagger_10");
             CWS_Dagger_10.Name.English("Narzan");
@@ -1009,7 +1009,7 @@ namespace OdinsSteelworks
             CWS_Dagger_10.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Dagger_10.Configurable = Configurability.Recipe;
             CWS_Dagger_10.CraftAmount = 1;
-            CWS_Dagger_10.Snapshot();
+
 
             Item CWS_Dagger_11 = new Item("cwsassets", "CWS_Dagger_11");
             CWS_Dagger_11.Name.English("Atolm");
@@ -1021,7 +1021,7 @@ namespace OdinsSteelworks
             CWS_Dagger_11.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Dagger_11.Configurable = Configurability.Recipe;
             CWS_Dagger_11.CraftAmount = 1;
-            CWS_Dagger_11.Snapshot();
+
 
             #endregion
             #region maces
@@ -1036,7 +1036,7 @@ namespace OdinsSteelworks
             CWS_Mace_1.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Mace_1.Configurable = Configurability.Recipe;
             CWS_Mace_1.CraftAmount = 1;
-            CWS_Mace_1.Snapshot();
+
 
             Item CWS_Mace_2 = new Item("cwsassets", "CWS_Mace_2");
             CWS_Mace_2.Name.English("Cunningham");
@@ -1048,7 +1048,7 @@ namespace OdinsSteelworks
             CWS_Mace_2.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Mace_2.Configurable = Configurability.Recipe;
             CWS_Mace_2.CraftAmount = 1;
-            CWS_Mace_2.Snapshot();
+
 
             Item CWS_Mace_3 = new Item("cwsassets", "CWS_Mace_3");
             CWS_Mace_3.Name.English("Ellyn");
@@ -1060,7 +1060,7 @@ namespace OdinsSteelworks
             CWS_Mace_3.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Mace_3.Configurable = Configurability.Recipe;
             CWS_Mace_3.CraftAmount = 1;
-            CWS_Mace_3.Snapshot();
+
 
             Item CWS_Mace_4 = new Item("cwsassets", "CWS_Mace_4");
             CWS_Mace_4.Name.English("Lamorak");
@@ -1072,7 +1072,7 @@ namespace OdinsSteelworks
             CWS_Mace_4.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Mace_4.Configurable = Configurability.Recipe;
             CWS_Mace_4.CraftAmount = 1;
-            CWS_Mace_4.Snapshot();
+
 
             Item CWS_Mace_5 = new Item("cwsassets", "CWS_Mace_5");
             CWS_Mace_5.Name.English("Orselen");
@@ -1084,7 +1084,7 @@ namespace OdinsSteelworks
             CWS_Mace_5.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Mace_5.Configurable = Configurability.Recipe;
             CWS_Mace_5.CraftAmount = 1;
-            CWS_Mace_5.Snapshot();
+
 
             Item CWS_Mace_6 = new Item("cwsassets", "CWS_Mace_6");
             CWS_Mace_6.Name.English("Sagamore");
@@ -1096,7 +1096,7 @@ namespace OdinsSteelworks
             CWS_Mace_6.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Mace_6.Configurable = Configurability.Recipe;
             CWS_Mace_6.CraftAmount = 1;
-            CWS_Mace_6.Snapshot();
+
 
             Item CWS_Mace_7 = new Item("cwsassets", "CWS_Mace_7");
             CWS_Mace_7.Name.English("Gustave");
@@ -1108,7 +1108,7 @@ namespace OdinsSteelworks
             CWS_Mace_7.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Mace_7.Configurable = Configurability.Recipe;
             CWS_Mace_7.CraftAmount = 1;
-            CWS_Mace_7.Snapshot();
+
 
             Item CWS_Mace_8 = new Item("cwsassets", "CWS_Mace_8");
             CWS_Mace_8.Name.English("Duellicosa");
@@ -1120,7 +1120,7 @@ namespace OdinsSteelworks
             CWS_Mace_8.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Mace_8.Configurable = Configurability.Recipe;
             CWS_Mace_8.CraftAmount = 1;
-            CWS_Mace_8.Snapshot();
+
 
             Item CWS_Mace_9 = new Item("cwsassets", "CWS_Mace_9");
             CWS_Mace_9.Name.English("Meribia");
@@ -1132,7 +1132,7 @@ namespace OdinsSteelworks
             CWS_Mace_9.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Mace_9.Configurable = Configurability.Recipe;
             CWS_Mace_9.CraftAmount = 1;
-            CWS_Mace_9.Snapshot();
+
 
             Item CWS_Mace_10 = new Item("cwsassets", "CWS_Mace_10");
             CWS_Mace_10.Name.English("Svartr Sol");
@@ -1144,7 +1144,7 @@ namespace OdinsSteelworks
             CWS_Mace_10.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Mace_10.Configurable = Configurability.Recipe;
             CWS_Mace_10.CraftAmount = 1;
-            CWS_Mace_10.Snapshot();
+
 
             #endregion
             #region shields
@@ -1159,7 +1159,7 @@ namespace OdinsSteelworks
             CWS_Buckler_Shield_1.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Buckler_Shield_1.Configurable = Configurability.Recipe;
             CWS_Buckler_Shield_1.CraftAmount = 1;
-            CWS_Buckler_Shield_1.Snapshot();
+
 
             Item CWS_Buckler_Shield_2 = new Item("cwsassets", "CWS_Buckler_Shield_2");
             CWS_Buckler_Shield_2.Name.English("Decrepit");
@@ -1171,7 +1171,7 @@ namespace OdinsSteelworks
             CWS_Buckler_Shield_2.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Buckler_Shield_2.Configurable = Configurability.Recipe;
             CWS_Buckler_Shield_2.CraftAmount = 1;
-            CWS_Buckler_Shield_2.Snapshot();
+
 
             Item CWS_Round_Shield_1 = new Item("cwsassets", "CWS_Round_Shield_1");
             CWS_Round_Shield_1.Name.English("Perfuga");
@@ -1183,7 +1183,7 @@ namespace OdinsSteelworks
             CWS_Round_Shield_1.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Round_Shield_1.Configurable = Configurability.Recipe;
             CWS_Round_Shield_1.CraftAmount = 1;
-            CWS_Round_Shield_1.Snapshot();
+
 
             Item CWS_Round_Shield_2 = new Item("cwsassets", "CWS_Round_Shield_2");
             CWS_Round_Shield_2.Name.English("Infidelis");
@@ -1195,7 +1195,7 @@ namespace OdinsSteelworks
             CWS_Round_Shield_2.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Round_Shield_2.Configurable = Configurability.Recipe;
             CWS_Round_Shield_2.CraftAmount = 1;
-            CWS_Round_Shield_2.Snapshot();
+
 
             Item CWS_Round_Shield_3 = new Item("cwsassets", "CWS_Round_Shield_3");
             CWS_Round_Shield_3.Name.English("Miscreant");
@@ -1207,7 +1207,7 @@ namespace OdinsSteelworks
             CWS_Round_Shield_3.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Round_Shield_3.Configurable = Configurability.Recipe;
             CWS_Round_Shield_3.CraftAmount = 1;
-            CWS_Round_Shield_3.Snapshot();
+
 
             Item CWS_Round_Shield_4 = new Item("cwsassets", "CWS_Round_Shield_4");
             CWS_Round_Shield_4.Name.English("Muirgheal");
@@ -1219,7 +1219,7 @@ namespace OdinsSteelworks
             CWS_Round_Shield_4.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Round_Shield_4.Configurable = Configurability.Recipe;
             CWS_Round_Shield_4.CraftAmount = 1;
-            CWS_Round_Shield_4.Snapshot();
+
 
             Item CWS_Round_Shield_5 = new Item("cwsassets", "CWS_Round_Shield_5");
             CWS_Round_Shield_5.Name.English("Lacrimosa");
@@ -1231,7 +1231,7 @@ namespace OdinsSteelworks
             CWS_Round_Shield_5.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Round_Shield_5.Configurable = Configurability.Recipe;
             CWS_Round_Shield_5.CraftAmount = 1;
-            CWS_Round_Shield_5.Snapshot();
+
 
             Item CWS_Round_Shield_6 = new Item("cwsassets", "CWS_Round_Shield_6");
             CWS_Round_Shield_6.Name.English("Radulfr");
@@ -1243,7 +1243,7 @@ namespace OdinsSteelworks
             CWS_Round_Shield_6.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Round_Shield_6.Configurable = Configurability.Recipe;
             CWS_Round_Shield_6.CraftAmount = 1;
-            CWS_Round_Shield_6.Snapshot();
+
 
             Item CWS_Round_Shield_7 = new Item("cwsassets", "CWS_Round_Shield_7");
             CWS_Round_Shield_7.Name.English("Torhild");
@@ -1255,7 +1255,7 @@ namespace OdinsSteelworks
             CWS_Round_Shield_7.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Round_Shield_7.Configurable = Configurability.Recipe;
             CWS_Round_Shield_7.CraftAmount = 1;
-            CWS_Round_Shield_7.Snapshot();
+
 
             Item CWS_Heater_Shield_1 = new Item("cwsassets", "CWS_Heater_Shield_1");
             CWS_Heater_Shield_1.Name.English("Birger");
@@ -1267,7 +1267,7 @@ namespace OdinsSteelworks
             CWS_Heater_Shield_1.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Heater_Shield_1.Configurable = Configurability.Recipe;
             CWS_Heater_Shield_1.CraftAmount = 1;
-            CWS_Heater_Shield_1.Snapshot();
+
 
             Item CWS_Heater_Shield_2 = new Item("cwsassets", "CWS_Heater_Shield_2");
             CWS_Heater_Shield_2.Name.English("Siggebane");
@@ -1279,7 +1279,7 @@ namespace OdinsSteelworks
             CWS_Heater_Shield_2.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Heater_Shield_2.Configurable = Configurability.Recipe;
             CWS_Heater_Shield_2.CraftAmount = 1;
-            CWS_Heater_Shield_2.Snapshot();
+
 
             Item CWS_Heater_Shield_3 = new Item("cwsassets", "CWS_Heater_Shield_3");
             CWS_Heater_Shield_3.Name.English("Glebs Eydis");
@@ -1291,7 +1291,7 @@ namespace OdinsSteelworks
             CWS_Heater_Shield_3.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Heater_Shield_3.Configurable = Configurability.Recipe;
             CWS_Heater_Shield_3.CraftAmount = 1;
-            CWS_Heater_Shield_3.Snapshot();
+
 
             Item CWS_Heater_Shield_4 = new Item("cwsassets", "CWS_Heater_Shield_4");
             CWS_Heater_Shield_4.Name.English("Runar Ingvild");
@@ -1303,7 +1303,7 @@ namespace OdinsSteelworks
             CWS_Heater_Shield_4.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Heater_Shield_4.Configurable = Configurability.Recipe;
             CWS_Heater_Shield_4.CraftAmount = 1;
-            CWS_Heater_Shield_4.Snapshot();
+
 
             Item CWS_Heater_Shield_5 = new Item("cwsassets", "CWS_Heater_Shield_5");
             CWS_Heater_Shield_5.Name.English("Vigdis Ingegerd");
@@ -1315,7 +1315,7 @@ namespace OdinsSteelworks
             CWS_Heater_Shield_5.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Heater_Shield_5.Configurable = Configurability.Recipe;
             CWS_Heater_Shield_5.CraftAmount = 1;
-            CWS_Heater_Shield_5.Snapshot();
+
 
             Item CWS_Tower_Shield_1 = new Item("cwsassets", "CWS_Tower_Shield_1");
             CWS_Tower_Shield_1.Name.English("Hel Hilda");
@@ -1327,7 +1327,7 @@ namespace OdinsSteelworks
             CWS_Tower_Shield_1.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Tower_Shield_1.Configurable = Configurability.Recipe;
             CWS_Tower_Shield_1.CraftAmount = 1;
-            CWS_Tower_Shield_1.Snapshot();
+
 
             Item CWS_Tower_Shield_2 = new Item("cwsassets", "CWS_Tower_Shield_2");
             CWS_Tower_Shield_2.Name.English("Melpomene");
@@ -1339,7 +1339,7 @@ namespace OdinsSteelworks
             CWS_Tower_Shield_2.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Tower_Shield_2.Configurable = Configurability.Recipe;
             CWS_Tower_Shield_2.CraftAmount = 1;
-            CWS_Tower_Shield_2.Snapshot();
+
 
             Item CWS_Tower_Shield_3 = new Item("cwsassets", "CWS_Tower_Shield_3");
             CWS_Tower_Shield_3.Name.English("Dies Irae");
@@ -1351,7 +1351,7 @@ namespace OdinsSteelworks
             CWS_Tower_Shield_3.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Tower_Shield_3.Configurable = Configurability.Recipe;
             CWS_Tower_Shield_3.CraftAmount = 1;
-            CWS_Tower_Shield_3.Snapshot();
+
 
             Item CWS_Tower_Shield_4 = new Item("cwsassets", "CWS_Tower_Shield_4");
             CWS_Tower_Shield_4.Name.English("Rasalhague");
@@ -1363,7 +1363,7 @@ namespace OdinsSteelworks
             CWS_Tower_Shield_4.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Tower_Shield_4.Configurable = Configurability.Recipe;
             CWS_Tower_Shield_4.CraftAmount = 1;
-            CWS_Tower_Shield_4.Snapshot();
+
 
             Item CWS_Tower_Shield_5 = new Item("cwsassets", "CWS_Tower_Shield_5");
             CWS_Tower_Shield_5.Name.English("Bornite");
@@ -1375,7 +1375,7 @@ namespace OdinsSteelworks
             CWS_Tower_Shield_5.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Tower_Shield_5.Configurable = Configurability.Recipe;
             CWS_Tower_Shield_5.CraftAmount = 1;
-            CWS_Tower_Shield_5.Snapshot();
+
 
             #endregion
             #region spears
@@ -1390,7 +1390,7 @@ namespace OdinsSteelworks
             CWS_Spear_1.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Spear_1.Configurable = Configurability.Recipe;
             CWS_Spear_1.CraftAmount = 1;
-            CWS_Spear_1.Snapshot();
+
             GameObject CWS_Spear_1_Projectile = ItemManager.PrefabManager.RegisterPrefab("cwsassets", "CWS_Spear_1_Projectile");
 
             Item CWS_Spear_2 = new Item("cwsassets", "CWS_Spear_2");
@@ -1403,7 +1403,7 @@ namespace OdinsSteelworks
             CWS_Spear_2.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Spear_2.Configurable = Configurability.Recipe;
             CWS_Spear_2.CraftAmount = 1;
-            CWS_Spear_2.Snapshot();
+
             GameObject CWS_Spear_2_Projectile = ItemManager.PrefabManager.RegisterPrefab("cwsassets", "CWS_Spear_2_Projectile");
 
             Item CWS_Spear_3 = new Item("cwsassets", "CWS_Spear_3");
@@ -1416,7 +1416,7 @@ namespace OdinsSteelworks
             CWS_Spear_3.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Spear_3.Configurable = Configurability.Recipe;
             CWS_Spear_3.CraftAmount = 1;
-            CWS_Spear_3.Snapshot();
+
             GameObject CWS_Spear_3_Projectile = ItemManager.PrefabManager.RegisterPrefab("cwsassets", "CWS_Spear_3_Projectile");
 
             Item CWS_Spear_4 = new Item("cwsassets", "CWS_Spear_4");
@@ -1429,7 +1429,7 @@ namespace OdinsSteelworks
             CWS_Spear_4.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Spear_4.Configurable = Configurability.Recipe;
             CWS_Spear_4.CraftAmount = 1;
-            CWS_Spear_4.Snapshot();
+
             GameObject CWS_Spear_4_Projectile = ItemManager.PrefabManager.RegisterPrefab("cwsassets", "CWS_Spear_4_Projectile");
 
             Item CWS_Spear_5 = new Item("cwsassets", "CWS_Spear_5");
@@ -1442,7 +1442,7 @@ namespace OdinsSteelworks
             CWS_Spear_5.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Spear_5.Configurable = Configurability.Recipe;
             CWS_Spear_5.CraftAmount = 1;
-            CWS_Spear_5.Snapshot();
+
             GameObject CWS_Spear_5_Projectile = ItemManager.PrefabManager.RegisterPrefab("cwsassets", "CWS_Spear_5_Projectile");
 
             Item CWS_Spear_6 = new Item("cwsassets", "CWS_Spear_6");
@@ -1455,7 +1455,7 @@ namespace OdinsSteelworks
             CWS_Spear_6.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Spear_6.Configurable = Configurability.Recipe;
             CWS_Spear_6.CraftAmount = 1;
-            CWS_Spear_6.Snapshot();
+
             GameObject CWS_Spear_6_Projectile = ItemManager.PrefabManager.RegisterPrefab("cwsassets", "CWS_Spear_6_Projectile");
 
             Item CWS_Spear_7 = new Item("cwsassets", "CWS_Spear_7");
@@ -1468,7 +1468,7 @@ namespace OdinsSteelworks
             CWS_Spear_7.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Spear_7.Configurable = Configurability.Recipe;
             CWS_Spear_7.CraftAmount = 1;
-            CWS_Spear_7.Snapshot();
+
             GameObject CWS_Spear_7_Projectile = ItemManager.PrefabManager.RegisterPrefab("cwsassets", "CWS_Spear_7_Projectile");
 
             Item CWS_Spear_8 = new Item("cwsassets", "CWS_Spear_8");
@@ -1481,7 +1481,7 @@ namespace OdinsSteelworks
             CWS_Spear_8.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Spear_8.Configurable = Configurability.Recipe;
             CWS_Spear_8.CraftAmount = 1;
-            CWS_Spear_8.Snapshot();
+
             GameObject CWS_Spear_8_Projectile = ItemManager.PrefabManager.RegisterPrefab("cwsassets", "CWS_Spear_8_Projectile");
 
             Item CWS_Spear_9 = new Item("cwsassets", "CWS_Spear_9");
@@ -1494,7 +1494,7 @@ namespace OdinsSteelworks
             CWS_Spear_9.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Spear_9.Configurable = Configurability.Recipe;
             CWS_Spear_9.CraftAmount = 1;
-            CWS_Spear_9.Snapshot();
+
             GameObject CWS_Spear_9_Projectile = ItemManager.PrefabManager.RegisterPrefab("cwsassets", "CWS_Spear_9_Projectile");
 
             #endregion
@@ -1510,7 +1510,7 @@ namespace OdinsSteelworks
             CWS_Sword_1.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sword_1.Configurable = Configurability.Recipe;
             CWS_Sword_1.CraftAmount = 1;
-            CWS_Sword_1.Snapshot();
+
 
             Item CWS_Sword_2 = new Item("cwsassets", "CWS_Sword_2");
             CWS_Sword_2.Name.English("Trusty");
@@ -1522,7 +1522,7 @@ namespace OdinsSteelworks
             CWS_Sword_2.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sword_2.Configurable = Configurability.Recipe;
             CWS_Sword_2.CraftAmount = 1;
-            CWS_Sword_2.Snapshot();
+
 
             Item CWS_Sword_3 = new Item("cwsassets", "CWS_Sword_3");
             CWS_Sword_3.Name.English("Veteran");
@@ -1534,7 +1534,7 @@ namespace OdinsSteelworks
             CWS_Sword_3.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sword_3.Configurable = Configurability.Recipe;
             CWS_Sword_3.CraftAmount = 1;
-            CWS_Sword_3.Snapshot();
+
 
             Item CWS_Sword_4 = new Item("cwsassets", "CWS_Sword_4");
             CWS_Sword_4.Name.English("Decanus");
@@ -1546,7 +1546,7 @@ namespace OdinsSteelworks
             CWS_Sword_4.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sword_4.Configurable = Configurability.Recipe;
             CWS_Sword_4.CraftAmount = 1;
-            CWS_Sword_4.Snapshot();
+
 
             Item CWS_Sword_5 = new Item("cwsassets", "CWS_Sword_5");
             CWS_Sword_5.Name.English("Optio");
@@ -1558,7 +1558,7 @@ namespace OdinsSteelworks
             CWS_Sword_5.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sword_5.Configurable = Configurability.Recipe;
             CWS_Sword_5.CraftAmount = 1;
-            CWS_Sword_5.Snapshot();
+
 
             Item CWS_Sword_6 = new Item("cwsassets", "CWS_Sword_6");
             CWS_Sword_6.Name.English("Auratum");
@@ -1570,7 +1570,7 @@ namespace OdinsSteelworks
             CWS_Sword_6.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sword_6.Configurable = Configurability.Recipe;
             CWS_Sword_6.CraftAmount = 1;
-            CWS_Sword_6.Snapshot();
+
 
             Item CWS_Sword_7 = new Item("cwsassets", "CWS_Sword_7");
             CWS_Sword_7.Name.English("Pax Regis");
@@ -1582,7 +1582,7 @@ namespace OdinsSteelworks
             CWS_Sword_7.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sword_7.Configurable = Configurability.Recipe;
             CWS_Sword_7.CraftAmount = 1;
-            CWS_Sword_7.Snapshot();
+
 
             Item CWS_Sword_8 = new Item("cwsassets", "CWS_Sword_8");
             CWS_Sword_8.Name.English("Cranium");
@@ -1594,7 +1594,7 @@ namespace OdinsSteelworks
             CWS_Sword_8.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sword_8.Configurable = Configurability.Recipe;
             CWS_Sword_8.CraftAmount = 1;
-            CWS_Sword_8.Snapshot();
+
 
             Item CWS_Sword_9 = new Item("cwsassets", "CWS_Sword_9");
             CWS_Sword_9.Name.English("Praetor");
@@ -1606,7 +1606,7 @@ namespace OdinsSteelworks
             CWS_Sword_9.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sword_9.Configurable = Configurability.Recipe;
             CWS_Sword_9.CraftAmount = 1;
-            CWS_Sword_9.Snapshot();
+
             
             Item CWS_Sword_10 = new Item("cwsassets", "CWS_Sword_10");
             CWS_Sword_10.Name.English("Auceps");
@@ -1618,7 +1618,7 @@ namespace OdinsSteelworks
             CWS_Sword_10.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sword_10.Configurable = Configurability.Recipe;
             CWS_Sword_10.CraftAmount = 1;
-            CWS_Sword_10.Snapshot();
+
 
             Item CWS_Sword_11 = new Item("cwsassets", "CWS_Sword_11");
             CWS_Sword_11.Name.English("Veritas");
@@ -1630,7 +1630,7 @@ namespace OdinsSteelworks
             CWS_Sword_11.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sword_11.Configurable = Configurability.Recipe;
             CWS_Sword_11.CraftAmount = 1;
-            CWS_Sword_11.Snapshot();
+
 
             Item CWS_Sword_12 = new Item("cwsassets", "CWS_Sword_12");
             CWS_Sword_12.Name.English("Widow's Cry");
@@ -1642,7 +1642,7 @@ namespace OdinsSteelworks
             CWS_Sword_12.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sword_12.Configurable = Configurability.Recipe;
             CWS_Sword_12.CraftAmount = 1;
-            CWS_Sword_12.Snapshot();
+
 
             Item CWS_Sword_13 = new Item("cwsassets", "CWS_Sword_13");
             CWS_Sword_13.Name.English("Cauda Serpentis");
@@ -1654,7 +1654,7 @@ namespace OdinsSteelworks
             CWS_Sword_13.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sword_13.Configurable = Configurability.Recipe;
             CWS_Sword_13.CraftAmount = 1;
-            CWS_Sword_13.Snapshot();
+
 
             Item CWS_Sword_14 = new Item("cwsassets", "CWS_Sword_14");
             CWS_Sword_14.Name.English("Immanis");
@@ -1666,7 +1666,7 @@ namespace OdinsSteelworks
             CWS_Sword_14.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Sword_14.Configurable = Configurability.Recipe;
             CWS_Sword_14.CraftAmount = 1;
-            CWS_Sword_14.Snapshot();
+
 
             #endregion
             #region crossbows
@@ -1681,7 +1681,7 @@ namespace OdinsSteelworks
             CWS_Crossbow_1.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Crossbow_1.Configurable = Configurability.Recipe;
             CWS_Crossbow_1.CraftAmount = 1;
-            CWS_Crossbow_1.Snapshot();
+
 
             Item CWS_Crossbow_2 = new Item("cwsassets", "CWS_Crossbow_2");
             CWS_Crossbow_2.Name.English("Deadeye");
@@ -1693,7 +1693,7 @@ namespace OdinsSteelworks
             CWS_Crossbow_2.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Crossbow_2.Configurable = Configurability.Recipe;
             CWS_Crossbow_2.CraftAmount = 1;
-            CWS_Crossbow_2.Snapshot();
+
 
             Item CWS_Crossbow_3 = new Item("cwsassets", "CWS_Crossbow_3");
             CWS_Crossbow_3.Name.English("Monsoon");
@@ -1705,7 +1705,7 @@ namespace OdinsSteelworks
             CWS_Crossbow_3.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Crossbow_3.Configurable = Configurability.Recipe;
             CWS_Crossbow_3.CraftAmount = 1;
-            CWS_Crossbow_3.Snapshot();
+
 
             Item CWS_Crossbow_4 = new Item("cwsassets", "CWS_Crossbow_4");
             CWS_Crossbow_4.Name.English("Netherstrand");
@@ -1717,7 +1717,7 @@ namespace OdinsSteelworks
             CWS_Crossbow_4.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Crossbow_4.Configurable = Configurability.Recipe;
             CWS_Crossbow_4.CraftAmount = 1;
-            CWS_Crossbow_4.Snapshot();
+
 
             Item CWS_Crossbow_5 = new Item("cwsassets", "CWS_Crossbow_5");
             CWS_Crossbow_5.Name.English("Shrike");
@@ -1729,7 +1729,7 @@ namespace OdinsSteelworks
             CWS_Crossbow_5.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Crossbow_5.Configurable = Configurability.Recipe;
             CWS_Crossbow_5.CraftAmount = 1;
-            CWS_Crossbow_5.Snapshot();
+
 
             Item CWS_Crossbow_6 = new Item("cwsassets", "CWS_Crossbow_6");
             CWS_Crossbow_6.Name.English("Drawback");
@@ -1741,7 +1741,7 @@ namespace OdinsSteelworks
             CWS_Crossbow_6.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Crossbow_6.Configurable = Configurability.Recipe;
             CWS_Crossbow_6.CraftAmount = 1;
-            CWS_Crossbow_6.Snapshot();
+
 
             Item CWS_Crossbow_7 = new Item("cwsassets", "CWS_Crossbow_7");
             CWS_Crossbow_7.Name.English("Pincer");
@@ -1753,7 +1753,7 @@ namespace OdinsSteelworks
             CWS_Crossbow_7.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Crossbow_7.Configurable = Configurability.Recipe;
             CWS_Crossbow_7.CraftAmount = 1;
-            CWS_Crossbow_7.Snapshot();
+
 
             Item CWS_Crossbow_8 = new Item("cwsassets", "CWS_Crossbow_8");
             CWS_Crossbow_8.Name.English("Hornet");
@@ -1765,7 +1765,7 @@ namespace OdinsSteelworks
             CWS_Crossbow_8.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Crossbow_8.Configurable = Configurability.Recipe;
             CWS_Crossbow_8.CraftAmount = 1;
-            CWS_Crossbow_8.Snapshot();
+
 
             Item CWS_Crossbow_9 = new Item("cwsassets", "CWS_Crossbow_9");
             CWS_Crossbow_9.Name.English("Steinn Orka");
@@ -1777,7 +1777,7 @@ namespace OdinsSteelworks
             CWS_Crossbow_9.RequiredUpgradeItems.Add("RoundLog", 2);
             CWS_Crossbow_9.Configurable = Configurability.Recipe;
             CWS_Crossbow_9.CraftAmount = 1;
-            CWS_Crossbow_9.Snapshot();
+
 
             #endregion
             #region arrows
@@ -1837,8 +1837,7 @@ namespace OdinsSteelworks
             CWS_Arrow_4.CraftAmount = 20;
             
             GameObject CWS_Arrow_Pro_4 = ItemManager.PrefabManager.RegisterPrefab("cwsassets", "CWS_Arrow_Pro_4");
-
-            Item CWS_Arrow_5 = new Item("cwsassets", "CWS_Arrow_5");
+            Item CWS_Arrow_5 = new Item("cwsassets", "CWS_Arrow_5");           
             CWS_Arrow_5.Name.English("Frozen Crossbow Bolt");
             CWS_Arrow_5.Description.English("a stack of frozen ammo for crossbows");
             CWS_Arrow_5.Crafting.Add("CWS_Forge", 2);
