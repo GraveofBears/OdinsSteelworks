@@ -17,7 +17,7 @@ namespace OdinsSteelworks
     public class OdinsSteelworks : BaseUnityPlugin
     {
         private const string ModName = "OdinsSteelworks";
-        private const string ModVersion = "0.0.15";
+        private const string ModVersion = "0.0.16";
         private const string ModGUID = "org.bepinex.plugins.odinssteelworks";
 
         public void Awake()
