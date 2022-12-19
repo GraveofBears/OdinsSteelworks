@@ -17,7 +17,7 @@ namespace OdinsSteelworks
     public class OdinsSteelworks : BaseUnityPlugin
     {
         private const string ModName = "OdinsSteelworks";
-        private const string ModVersion = "0.0.16";
+        private const string ModVersion = "0.0.17";
         private const string ModGUID = "org.bepinex.plugins.odinssteelworks";
 
         public void Awake()
@@ -371,6 +371,16 @@ namespace OdinsSteelworks
             CWS_Sledge_10.Configurable = Configurability.Recipe;
             CWS_Sledge_10.CraftAmount = 1;
 
+            Item CWS_Sledge_11 = new Item("cwsassets", "CWS_Sledge_11");
+            CWS_Sledge_11.Name.English("Spirit of the Fox");
+            CWS_Sledge_11.Description.English("An heavy steel forged hammer. A face smasher.");
+            CWS_Sledge_11.Crafting.Add("CWS_Forge", 2);
+            CWS_Sledge_11.RequiredItems.Add("CWS_Hot_Steel_Finished", 1);
+            CWS_Sledge_11.RequiredItems.Add("RoundLog", 4);
+            CWS_Sledge_11.RequiredUpgradeItems.Add("CWS_Hot_Steel_Finished", 2);
+            CWS_Sledge_11.RequiredUpgradeItems.Add("RoundLog", 2);
+            CWS_Sledge_11.Configurable = Configurability.Recipe;
+            CWS_Sledge_11.CraftAmount = 1;
 
             #endregion
             #region 2h swords

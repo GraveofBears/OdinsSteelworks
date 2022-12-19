@@ -11,6 +11,7 @@
 
 How To Craft Steel and Weapons: 
 
+
 >* First Build the Steelworks Forge. We will also need the Steelworks Kiln, Steel Bar Mould, and SlackTub.
 >* We can then craft Surtling Coal and our Crucible - this is crafted on the forge using Surtling Cores and Coal, the Crucible is crafted with IronScrap and Coal.
 >* Place the Crucilbe into the Steelworks Kiln with the Surtling Coal, keep that fire toasty!
@@ -20,6 +21,69 @@ How To Craft Steel and Weapons:
 >* We can also put the hot steel bars back into the SlackTub should we want to cool them again for crafting stacks and weapon stands.
 >* 2 handed swords, crossbows, axes, swords, polearms, daggers, maces, and more, there are over 120 weapons for you to set configs for.
 
+<details><summary><b>Show Station Recipes</b></summary>
+
+|CWS_Forge|  |
+|-----|--------|
+|Stone |10       |
+|Iron |5      |
+|DragonTear |1      |
+  
+|CWS_Slack_Tub|  |
+|-----|--------|
+|Iron |1       |
+|CWS_SurtlingCoal |1      |
+|RoundLog |5      |
+
+|CWS_Stone_Kiln|  |
+|-----|--------|
+|CWS_SurtlingCoal |2       |
+|Iron |5      |
+|Stone |20      |
+
+|CWS_Steel_Mold|  |
+|-----|--------|
+|Iron |1       |
+|CWS_SurtlingCoal |2      |
+|Stone |5      |
+
+|CWS_Item_Stand|  |
+|-----|--------|
+|CWS_Cold_Steel |4       |
+|CWS_SurtlingCoal |2      |
+|DeerHide |2      |
+  
+|CWS_Item_Stand_2|  |
+|-----|--------|
+|CWS_Cold_Steel |4       |
+|CWS_SurtlingCoal |2      |
+|DeerHide |2      |
+
+|CWS_Steel_Pile|  |
+|-----|--------|
+|CWS_Cold_Steel |20       |
+|CWS_SurtlingCoal |2      |
+|DeerHide |2      |
+
+|CWS_SurtlingCoal|  |
+|-----|--------|
+|Coal |5       |
+|SurtlingCore |1      |
+
+|CWS_Crucible_Full|  |
+|-----|--------|
+|CWS_SurtlingCoal |2       |
+|IronScrap |5      |
+
+>Note: All steel weapon recipes can be configured via config file, this syncs with the server's config settings.
+
+|CWS_Weapons|  |
+|-----|--------|
+|CWS_Hot_Steel_Finished |2       |
+|RoundLog |2      |
+
+
+</details>
 
 **IMPORTANT NOTE: THIS MOD USES THE LATEST MISTLANDS ITEMMANAGER! Mods using the older versions may cause crafting tables or chests to not work properly when running them with new mods built on the latest ItemManager, those mods will need updated.
 
@@ -49,7 +113,7 @@ How To Craft Steel and Weapons:
 
 
 
-<details><summary>Show Weapon Screenshots:</summary>
+<details><summary><b>Show Weapon Screenshots:</b></summary>
 
 
 <p align="center"><img src="https://cdn.discordapp.com/attachments/1021774386753196122/1051503255647170570/image.png"></p>
@@ -100,25 +164,34 @@ How To Craft Steel and Weapons:
  Re-Release the Kraken!
  
 #Version 0.0.6 - 
-Fixed a missing collider on one of the Swords.
+ Fixed a missing collider on one of the Swords.
  
 #Version 0.0.7 - 
-Updated internal dll files for ItemManager, removed "Full" configuration ability and set to "Crafting" - this was causing performance issues with Configuration Manager. Please use Wacky's Database for full configuration options. I plan to add an external YAML for this later but for now this will help prevent the game crashing with Configuration Manager.
+ Updated internal dll files for ItemManager, removed "Full" configuration ability and set to "Crafting" - this was causing performance issues with Configuration Manager. Please use Wacky's Database for full configuration options. I plan to add an external YAML for this later but for now this will help prevent the game crashing with Configuration Manager.
 
 #Version 0.0.8 - 
-Dependency Hot-fix
+ Dependency Hot-fix
 
 #Version 0.0.9 - 
-Corrected issue that could have prevented the config file from updating 
+ Corrected issue that could have prevented the config file from updating 
 
 #Version 0.0.10 - 
-Added "Heater" style shields and 2 more spears.
+ Added "Heater" style shields and 2 more spears.
 
 #Version 0.0.11 - 
-Fixed Missing Asset
+ Fixed Missing Asset
 
 #Version 0.0.12 - 
-Corrected attach for new Heater Shields
+ Corrected attach for new Heater Shields
 
 #Version 0.0.14 - 
-Added several more weapons, as if there wasn't enough.
+ Added several more weapons, as if there wasn't enough.
+
+#Version 0.0.15 - 
+ Updated all textures for weapons, removed snapshot of icons when loading mod/into the game, added internal sprite icons. Corrected amount crafted for Crucible, set from 5 to 1.
+
+#Version 0.0.16 - 
+ Fixed missing effects on Dagger_7
+
+#Version 0.0.17 - 
+ Changed Piecemanager.dll to Piecemanager.cs on the internal side, fixed name for Sledge 10 and added Sledge 11.
