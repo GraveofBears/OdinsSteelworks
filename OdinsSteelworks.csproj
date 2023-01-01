@@ -124,6 +124,7 @@
     <None Include="packages.config" />
     <None Include="README.md" />
     <EmbeddedResource Include="translations\English.yml" />
+    <None Include="translations\Spanish.yml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ILRepack.targets" />
