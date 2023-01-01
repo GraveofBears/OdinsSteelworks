@@ -123,7 +123,7 @@
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="README.md" />
-    <None Include="translations\Steelworks.English.yml" />
+    <EmbeddedResource Include="translations\English.yml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ILRepack.targets" />
