@@ -9,6 +9,7 @@ using ItemManager;
 using PieceManager;
 using ServerSync;
 using UnityEngine;
+using LocalizationManager;
 
 
 namespace OdinsSteelworks
@@ -17,11 +18,12 @@ namespace OdinsSteelworks
     public class OdinsSteelworks : BaseUnityPlugin
     {
         private const string ModName = "OdinsSteelworks";
-        private const string ModVersion = "0.0.17";
+        private const string ModVersion = "0.1.0";
         private const string ModGUID = "org.bepinex.plugins.odinssteelworks";
 
         public void Awake()
         {
+            Localizer.Load();
             #region pieces 
 
             BuildPiece CWS_Forge = new BuildPiece("cwsassets", "CWS_Forge");
@@ -56,6 +58,14 @@ namespace OdinsSteelworks
             CWS_Steel_Mold.RequiredItems.Add("Stone", 5, true);
             CWS_Steel_Mold.Category.Add(BuildPieceCategory.Crafting);
 
+            BuildPiece CWS_Grindwheel = new BuildPiece("cwsassets", "CWS_Grindwheel");
+            CWS_Grindwheel.Name.English("Steel Grindingwheel");
+            CWS_Grindwheel.Description.English("A station extention for the forge.");
+            CWS_Grindwheel.RequiredItems.Add("YggdrasilWood", 4, true);
+            CWS_Grindwheel.RequiredItems.Add("CWS_Cold_Steel", 1, true);
+            CWS_Grindwheel.RequiredItems.Add("SharpeningStone", 1, true);
+            CWS_Grindwheel.Category.Add(BuildPieceCategory.Crafting);
+
             BuildPiece CWS_Item_Stand = new BuildPiece("cwsassets", "CWS_Item_Stand");
             CWS_Item_Stand.Name.English("Blue Weapon Display");
             CWS_Item_Stand.Description.English("A blue display for weapons");
@@ -77,6 +87,7 @@ namespace OdinsSteelworks
             CWS_Steel_Pile.Description.English("A pile of cold steel, ready for tossing into the kiln to forge.");
             CWS_Steel_Pile.RequiredItems.Add("CWS_Cold_Steel", 20, true);
             CWS_Steel_Pile.Category.Add(BuildPieceCategory.Crafting);
+
 
             #endregion
             #region materials
@@ -101,30 +112,30 @@ namespace OdinsSteelworks
             Item CWS_Crucible_Finished = new Item("cwsassets", "CWS_Crucible_Finished");
             CWS_Crucible_Finished.Name.English("Liquid Steel Crucible");
             CWS_Crucible_Finished.Description.English("A molten steel filled container");
-            CWS_Crucible_Finished.Crafting.Add("CWS_Forge", 30);
-            CWS_Crucible_Finished.RequiredItems.Add("SwordCheat", 1);
-            CWS_Crucible_Finished.CraftAmount = 1;
+           // CWS_Crucible_Finished.Crafting.Add("CWS_Forge", 30);
+           // CWS_Crucible_Finished.RequiredItems.Add("SwordCheat", 1);
+          //  CWS_Crucible_Finished.CraftAmount = 1;
 
             Item CWS_Cold_Steel = new Item("cwsassets", "CWS_Cold_Steel");
             CWS_Cold_Steel.Name.English("Cold Steel");
             CWS_Cold_Steel.Description.English("A cold steel material, great for storage.");
-            CWS_Cold_Steel.Crafting.Add("CWS_Forge", 30);
-            CWS_Cold_Steel.RequiredItems.Add("SwordCheat", 1);
-            CWS_Cold_Steel.CraftAmount = 1;
+          //  CWS_Cold_Steel.Crafting.Add("CWS_Forge", 30);
+          //  CWS_Cold_Steel.RequiredItems.Add("SwordCheat", 1);
+          //  CWS_Cold_Steel.CraftAmount = 1;
 
             Item CWS_Hot_Steel = new Item("cwsassets", "CWS_Hot_Steel");
             CWS_Hot_Steel.Name.English("Oxidized Steel");
             CWS_Hot_Steel.Description.English("An oxidized steel material");
-            CWS_Hot_Steel.Crafting.Add("CWS_Forge", 30);
-            CWS_Hot_Steel.RequiredItems.Add("SwordCheat", 1);
-            CWS_Hot_Steel.CraftAmount = 1;
+         //   CWS_Hot_Steel.Crafting.Add("CWS_Forge", 30);
+         //   CWS_Hot_Steel.RequiredItems.Add("SwordCheat", 1);
+         //   CWS_Hot_Steel.CraftAmount = 1;
 
             Item CWS_Hot_Steel_Finished = new Item("cwsassets", "CWS_Hot_Steel_Finished");
             CWS_Hot_Steel_Finished.Name.English("Finished Steel");
             CWS_Hot_Steel_Finished.Description.English("A heated steel, ready for forging a weapon. Placing this back into the Water Barrel will let it cool.");
-            CWS_Hot_Steel_Finished.Crafting.Add("CWS_Forge", 30);
-            CWS_Hot_Steel_Finished.RequiredItems.Add("SwordCheat", 1);
-            CWS_Hot_Steel_Finished.CraftAmount = 1;
+         //   CWS_Hot_Steel_Finished.Crafting.Add("CWS_Forge", 30);
+        //    CWS_Hot_Steel_Finished.RequiredItems.Add("SwordCheat", 1);
+         //   CWS_Hot_Steel_Finished.CraftAmount = 1;
 
             #endregion
             # region 2h axes
