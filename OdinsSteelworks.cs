@@ -18,7 +18,7 @@ namespace OdinsSteelworks
     public class OdinsSteelworks : BaseUnityPlugin
     {
         private const string ModName = "OdinsSteelworks";
-        private const string ModVersion = "0.1.1";
+        private const string ModVersion = "0.1.2";
         private const string ModGUID = "org.bepinex.plugins.odinssteelworks";
 
 
@@ -67,6 +67,7 @@ namespace OdinsSteelworks
             CWS_Slack_Tub.RequiredItems.Add("Iron", 2, true);
             CWS_Slack_Tub.RequiredItems.Add("CWS_SurtlingCoal", 2, true);
             CWS_Slack_Tub.RequiredItems.Add("RoundLog", 5, true);
+            CWS_Slack_Tub.Extension.Set("CWS_Forge", 8);
             CWS_Slack_Tub.Category.Add(BuildPieceCategory.Crafting);
             
             BuildPiece CWS_Stone_Kiln = new BuildPiece("cwsassets", "CWS_Stone_Kiln");
@@ -75,6 +76,7 @@ namespace OdinsSteelworks
             CWS_Stone_Kiln.RequiredItems.Add("CWS_SurtlingCoal", 4, true);
             CWS_Stone_Kiln.RequiredItems.Add("Iron", 5, true);
             CWS_Stone_Kiln.RequiredItems.Add("Stone", 20, true);
+            CWS_Stone_Kiln.Extension.Set("CWS_Forge", 8);
             CWS_Stone_Kiln.Category.Add(BuildPieceCategory.Crafting);
 
             BuildPiece CWS_Steel_Mold = new BuildPiece("cwsassets", "CWS_Steel_Mold");
@@ -83,6 +85,7 @@ namespace OdinsSteelworks
             CWS_Steel_Mold.RequiredItems.Add("Iron", 1, true);
             CWS_Steel_Mold.RequiredItems.Add("CWS_SurtlingCoal", 2, true);
             CWS_Steel_Mold.RequiredItems.Add("Stone", 5, true);
+            CWS_Steel_Mold.Extension.Set("CWS_Forge", 8);
             CWS_Steel_Mold.Category.Add(BuildPieceCategory.Crafting);
 
             BuildPiece CWS_Grindwheel = new BuildPiece("cwsassets", "CWS_Grindwheel");
@@ -91,6 +94,7 @@ namespace OdinsSteelworks
             CWS_Grindwheel.RequiredItems.Add("YggdrasilWood", 4, true);
             CWS_Grindwheel.RequiredItems.Add("CWS_Cold_Steel", 1, true);
             CWS_Grindwheel.RequiredItems.Add("SharpeningStone", 1, true);
+            CWS_Grindwheel.Extension.Set("CWS_Forge", 8);
             CWS_Grindwheel.Category.Add(BuildPieceCategory.Crafting);
 
             BuildPiece CWS_Item_Stand = new BuildPiece("cwsassets", "CWS_Item_Stand");
