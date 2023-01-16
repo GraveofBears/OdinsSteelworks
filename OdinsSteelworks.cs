@@ -18,7 +18,7 @@ namespace OdinsSteelworks
     public class OdinsSteelworks : BaseUnityPlugin
     {
         private const string ModName = "OdinsSteelworks";
-        private const string ModVersion = "0.1.4";
+        private const string ModVersion = "0.1.8";
         private const string ModGUID = "org.bepinex.plugins.odinssteelworks";
 
 
@@ -1908,6 +1908,9 @@ namespace OdinsSteelworks
 
             #endregion
 
+            Assembly assembly = Assembly.GetExecutingAssembly();
+            Harmony harmony = new(ModGUID);
+            harmony.PatchAll(assembly);
 
         }
     }
