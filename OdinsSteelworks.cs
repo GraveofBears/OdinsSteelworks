@@ -18,7 +18,7 @@ namespace OdinsSteelworks
     public class OdinsSteelworks : BaseUnityPlugin
     {
         private const string ModName = "OdinsSteelworks";
-        private const string ModVersion = "0.1.10";
+        private const string ModVersion = "0.1.12";
         private const string ModGUID = "org.bepinex.plugins.odinssteelworks";
 
 
@@ -54,8 +54,6 @@ namespace OdinsSteelworks
             configSync.AddLockingConfigEntry(serverConfigLocked);
 
             BuildPiece CWS_Forge = new BuildPiece("cwsassets", "CWS_Forge");
-            //CWS_Forge.Name.English("Steel Forge");
-            //CWS_Forge.Description.English("A steel foundry workbench");
             CWS_Forge.RequiredItems.Add("Stone", 10, true);
             CWS_Forge.RequiredItems.Add("Iron", 5, true);
             CWS_Forge.RequiredItems.Add("DragonTear", 1, true);
